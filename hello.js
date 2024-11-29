@@ -1,0 +1,1 @@
+let bomba = document.querySelector('h1')
