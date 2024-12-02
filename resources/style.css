@@ -1,7 +1,8 @@
 body {
     background-color: beige;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    font-family: "Yuji Mai", serif;
+    margin: 0px auto;
+    display: flex;
 }
 
 header {
@@ -16,14 +17,33 @@ nav {
     align-items: center;
 }
 
+#myName {
+    cursor: pointer;
+}
+
+#myName:hover {
+    color: crimson;
+}
+
 nav ul li {
     display: inline-block;
     padding: 10px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkorchid;
 }
 
 @media only screen and (max-device-width: 470px) {
     ul {
         position: relative;
-        top: 30px
+        top: 60px;
     }
 }
