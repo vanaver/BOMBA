@@ -1,0 +1,47 @@
+body {
+    max-width: 900px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 22px;
+    margin-right: 20px;
+}
+
+main {
+    display: inline-flex;
+}
+img {
+    height: 400px;
+}
+
+
+#hiddenText {
+    display: none;
+}
+
+h3 {
+    cursor: pointer;
+}
